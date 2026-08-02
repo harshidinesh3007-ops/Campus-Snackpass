@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ff6b35;
+  color: white;
+}
+
+
+/* Search */
+
+.search-box {
+  text-align: center;
+  margin: 25px;
+}
+
+.search-box input {
+  width: 300px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+
+/* Category Filter */
+
+.category-filter {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px;
+}
+
+.category-filter button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff6b35;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.category-filter button:hover {
+  background-color: #e85d04;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+/*.category-filter button:active {
+  transform: scale(0.95);
+}*/
+
+
+/* Food Menu */
+
+.food-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  padding: 30px;
+}
+
+
+/* Food Card */
+
+.food-card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+
+.food-card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Food Image */
+
+.food-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+/* Food Button */
+
+.food-card button {
+  padding: 10px 20px;
+  background: #ff6b35;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.food-card button:hover {
+  background: #e85d04;
+}
+
+
+/* Cart */
+
+.cart-box {
+  background: white;
+  margin: 30px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+
+.cart-box button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #ff6b35;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* Mobile Responsive */
+
+@media(max-width:600px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+  .search-box input {
+    width: 80%;
+  }
+
+
+  .food-menu {
+    grid-template-columns: 1fr;
+  }
+
+}
+.food-image {
+  width: 100px !important;
+  height: 100px !important;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.food-image {
+  width: 100px !important;
+  height: 100px !important;
+  object-fit: cover;
+  border-radius: 12px;
+}
