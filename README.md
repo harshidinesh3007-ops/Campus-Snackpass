@@ -6,7 +6,7 @@ Campus SnackPass is a React-based college canteen food ordering web application.
 - [LLM Prompt Documentation](docs/LLMPromptDocumentation.pdf)
 ## Live Demo
 
-https://YOUR-VERCEL-LINK.vercel.app
+[Campus SnackPass – Live Website](https://campus-snackpass.vercel.app/)
 
 ## GitHub Repository
 
